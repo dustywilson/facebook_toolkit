@@ -32,7 +32,6 @@
 		protected function __trigger() {
 
 			// Load preferences data
-			// $config = $this->_Parent->Configuration->get();
 			$config = Symphony::Configuration()->get();
 
 			// Create the Facebook application instance
